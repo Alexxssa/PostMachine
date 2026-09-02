@@ -1,0 +1,1 @@
+gRYC:\Users\Администратор\source\repos\Labs\PostMachine\Post\PostMachine.csproj�	CSharp7_3

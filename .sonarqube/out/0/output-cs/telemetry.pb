@@ -1,0 +1,1 @@
+pRbC:\Users\Администратор\source\repos\Labs\PostMachine\TapeAbstract\TapeAbstract.csproj�	CSharp7_3

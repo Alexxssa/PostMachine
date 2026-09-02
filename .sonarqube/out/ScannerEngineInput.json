@@ -1,0 +1,176 @@
+{
+  "scannerProperties": [
+    {
+      "key": "sonar.scanner.app",
+      "value": "ScannerMSBuild"
+    },
+    {
+      "key": "sonar.scanner.appVersion",
+      "value": "11.2.1"
+    },
+    {
+      "key": "sonar.scanner.bootstrapStartTime",
+      "value": "1787925628000"
+    },
+    {
+      "key": "sonar.projectKey",
+      "value": "TuringMachine"
+    },
+    {
+      "key": "sonar.working.directory",
+      "value": "C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\.sonarqube\\out\\.sonar"
+    },
+    {
+      "key": "sonar.projectBaseDir",
+      "value": "C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine"
+    },
+    {
+      "key": "sonar.pullrequest.cache.basepath",
+      "value": "C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine"
+    },
+    {
+      "key": "sonar.sources",
+      "value": ""
+    },
+    {
+      "key": "sonar.tests",
+      "value": ""
+    },
+    {
+      "key": "sonar.modules",
+      "value": "D1F7EA37-0DBF-4AFD-9B78-7C8533FDC9EE,886C635F-9F5B-4E83-9046-7308C18F4BDB,4A9FB4B4-1546-4432-BE2B-FA19324E5A41"
+    },
+    {
+      "key": "D1F7EA37-0DBF-4AFD-9B78-7C8533FDC9EE.sonar.projectKey",
+      "value": "TuringMachine:D1F7EA37-0DBF-4AFD-9B78-7C8533FDC9EE"
+    },
+    {
+      "key": "D1F7EA37-0DBF-4AFD-9B78-7C8533FDC9EE.sonar.projectName",
+      "value": "TapeAbstract"
+    },
+    {
+      "key": "D1F7EA37-0DBF-4AFD-9B78-7C8533FDC9EE.sonar.projectBaseDir",
+      "value": "C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\TapeAbstract"
+    },
+    {
+      "key": "D1F7EA37-0DBF-4AFD-9B78-7C8533FDC9EE.sonar.working.directory",
+      "value": "C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\.sonarqube\\out\\.sonar\\mod0"
+    },
+    {
+      "key": "D1F7EA37-0DBF-4AFD-9B78-7C8533FDC9EE.sonar.sourceEncoding",
+      "value": "utf-8"
+    },
+    {
+      "key": "D1F7EA37-0DBF-4AFD-9B78-7C8533FDC9EE.sonar.tests",
+      "value": ""
+    },
+    {
+      "key": "D1F7EA37-0DBF-4AFD-9B78-7C8533FDC9EE.sonar.sources",
+      "value": "C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\TapeAbstract\\TapeA.cs,C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\TapeAbstract\\Properties\\AssemblyInfo.cs"
+    },
+    {
+      "key": "D1F7EA37-0DBF-4AFD-9B78-7C8533FDC9EE.sonar.cs.analyzer.projectOutPaths",
+      "value": "C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\.sonarqube\\out\\0"
+    },
+    {
+      "key": "D1F7EA37-0DBF-4AFD-9B78-7C8533FDC9EE.sonar.cs.roslyn.reportFilePaths",
+      "value": "C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\.sonarqube\\out\\0\\Issues.json"
+    },
+    {
+      "key": "D1F7EA37-0DBF-4AFD-9B78-7C8533FDC9EE.sonar.cs.scanner.telemetry",
+      "value": "C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\.sonarqube\\out\\0\\Telemetry.json"
+    },
+    {
+      "key": "886C635F-9F5B-4E83-9046-7308C18F4BDB.sonar.projectKey",
+      "value": "TuringMachine:886C635F-9F5B-4E83-9046-7308C18F4BDB"
+    },
+    {
+      "key": "886C635F-9F5B-4E83-9046-7308C18F4BDB.sonar.projectName",
+      "value": "TuringMachine"
+    },
+    {
+      "key": "886C635F-9F5B-4E83-9046-7308C18F4BDB.sonar.projectBaseDir",
+      "value": "C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\TuringMachine"
+    },
+    {
+      "key": "886C635F-9F5B-4E83-9046-7308C18F4BDB.sonar.working.directory",
+      "value": "C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\.sonarqube\\out\\.sonar\\mod1"
+    },
+    {
+      "key": "886C635F-9F5B-4E83-9046-7308C18F4BDB.sonar.sourceEncoding",
+      "value": "utf-8"
+    },
+    {
+      "key": "886C635F-9F5B-4E83-9046-7308C18F4BDB.sonar.tests",
+      "value": ""
+    },
+    {
+      "key": "886C635F-9F5B-4E83-9046-7308C18F4BDB.sonar.sources",
+      "value": "C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\TuringMachine\\App.config,C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\TuringMachine\\bin\\Debug\\TuringMachine.exe.config,C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\TuringMachine\\Cell.cs,C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\TuringMachine\\Program.cs,C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\TuringMachine\\ProgramA.cs,C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\TuringMachine\\ProgramCell.cs,C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\TuringMachine\\Properties\\AssemblyInfo.cs,C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\TuringMachine\\Tape.cs,C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\TuringMachine\\TextFile1.txt"
+    },
+    {
+      "key": "886C635F-9F5B-4E83-9046-7308C18F4BDB.sonar.cs.analyzer.projectOutPaths",
+      "value": "C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\.sonarqube\\out\\1"
+    },
+    {
+      "key": "886C635F-9F5B-4E83-9046-7308C18F4BDB.sonar.cs.roslyn.reportFilePaths",
+      "value": "C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\.sonarqube\\out\\1\\Issues.json"
+    },
+    {
+      "key": "886C635F-9F5B-4E83-9046-7308C18F4BDB.sonar.cs.scanner.telemetry",
+      "value": "C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\.sonarqube\\out\\1\\Telemetry.json"
+    },
+    {
+      "key": "4A9FB4B4-1546-4432-BE2B-FA19324E5A41.sonar.projectKey",
+      "value": "TuringMachine:4A9FB4B4-1546-4432-BE2B-FA19324E5A41"
+    },
+    {
+      "key": "4A9FB4B4-1546-4432-BE2B-FA19324E5A41.sonar.projectName",
+      "value": "PostMachine"
+    },
+    {
+      "key": "4A9FB4B4-1546-4432-BE2B-FA19324E5A41.sonar.projectBaseDir",
+      "value": "C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\Post"
+    },
+    {
+      "key": "4A9FB4B4-1546-4432-BE2B-FA19324E5A41.sonar.working.directory",
+      "value": "C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\.sonarqube\\out\\.sonar\\mod2"
+    },
+    {
+      "key": "4A9FB4B4-1546-4432-BE2B-FA19324E5A41.sonar.sourceEncoding",
+      "value": "utf-8"
+    },
+    {
+      "key": "4A9FB4B4-1546-4432-BE2B-FA19324E5A41.sonar.tests",
+      "value": ""
+    },
+    {
+      "key": "4A9FB4B4-1546-4432-BE2B-FA19324E5A41.sonar.sources",
+      "value": "C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\Post\\App.config,C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\Post\\bin\\Debug\\PostMachine.exe.config,C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\Post\\Cell.cs,C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\Post\\Program.cs,C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\Post\\ProgramA.cs,C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\Post\\ProgramCell.cs,C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\Post\\Properties\\AssemblyInfo.cs,C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\Post\\Tape.cs"
+    },
+    {
+      "key": "4A9FB4B4-1546-4432-BE2B-FA19324E5A41.sonar.cs.analyzer.projectOutPaths",
+      "value": "C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\.sonarqube\\out\\2"
+    },
+    {
+      "key": "4A9FB4B4-1546-4432-BE2B-FA19324E5A41.sonar.cs.roslyn.reportFilePaths",
+      "value": "C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\.sonarqube\\out\\2\\Issues.json"
+    },
+    {
+      "key": "4A9FB4B4-1546-4432-BE2B-FA19324E5A41.sonar.cs.scanner.telemetry",
+      "value": "C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\.sonarqube\\out\\2\\Telemetry.json"
+    },
+    {
+      "key": "sonar.token",
+      "value": "***"
+    },
+    {
+      "key": "sonar.host.url",
+      "value": "http://localhost:9000"
+    },
+    {
+      "key": "sonar.visualstudio.enable",
+      "value": "false"
+    }
+  ]
+}
