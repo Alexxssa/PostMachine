@@ -1,0 +1,7 @@
+﻿C:\Users\Администратор\source\repos\Labs\PostMachine\Post\Cell.cs
+C:\Users\Администратор\source\repos\Labs\PostMachine\Post\Program.cs
+C:\Users\Администратор\source\repos\Labs\PostMachine\Post\ProgramA.cs
+C:\Users\Администратор\source\repos\Labs\PostMachine\Post\ProgramCell.cs
+C:\Users\Администратор\source\repos\Labs\PostMachine\Post\Properties\AssemblyInfo.cs
+C:\Users\Администратор\source\repos\Labs\PostMachine\Post\Tape.cs
+C:\Users\Администратор\source\repos\Labs\PostMachine\Post\App.config

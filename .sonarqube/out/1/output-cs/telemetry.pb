@@ -1,0 +1,1 @@
+rRdC:\Users\Администратор\source\repos\Labs\PostMachine\TuringMachine\TuringMachine.csproj�	CSharp7_3

@@ -1,0 +1,2 @@
+﻿C:\Users\Администратор\source\repos\Labs\PostMachine\TapeAbstract\TapeA.cs
+C:\Users\Администратор\source\repos\Labs\PostMachine\TapeAbstract\Properties\AssemblyInfo.cs

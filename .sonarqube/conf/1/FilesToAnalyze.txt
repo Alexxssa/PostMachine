@@ -1,0 +1,8 @@
+﻿C:\Users\Администратор\source\repos\Labs\PostMachine\TuringMachine\Cell.cs
+C:\Users\Администратор\source\repos\Labs\PostMachine\TuringMachine\Program.cs
+C:\Users\Администратор\source\repos\Labs\PostMachine\TuringMachine\ProgramA.cs
+C:\Users\Администратор\source\repos\Labs\PostMachine\TuringMachine\ProgramCell.cs
+C:\Users\Администратор\source\repos\Labs\PostMachine\TuringMachine\Properties\AssemblyInfo.cs
+C:\Users\Администратор\source\repos\Labs\PostMachine\TuringMachine\Tape.cs
+C:\Users\Администратор\source\repos\Labs\PostMachine\TuringMachine\TextFile1.txt
+C:\Users\Администратор\source\repos\Labs\PostMachine\TuringMachine\App.config
