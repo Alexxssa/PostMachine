@@ -1,0 +1,42 @@
+name: .NET Framework Unit Tests
+
+# Workflow буде запускатися у випадку push на гілки feature/* та develop,
+# а також при створенні pull request в develop.
+on:
+  push:
+    branches:
+      - 'feature/*'
+      - develop
+  pull_request:
+    branches:
+      - develop
+
+jobs:
+  build-and-test:
+    # Используем Windows-сервер, так как .NET Framework 4.7.2 привязан к Windows компонентам
+    runs-on: windows-latest
+
+    steps:
+    # Крок 1: Завантаження коду з репозиторію (используем актуальную v4)
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    # Крок 2: Додаємо MSBuild до PATH, чтобы собирать старые проекты
+    - name: Setup MSBuild
+      uses: microsoft/setup-msbuild@v2
+
+    # Крок 3: Додаємо NuGet для скачивания пакетов (библиотек)
+    - name: Setup NuGet
+      uses: nuget/setup-nuget@v2
+
+    # Крок 4: Відновлення залежностей через NuGet для вашего решения
+    - name: Restore NuGet packages
+      run: nuget restore PostMachine.sln
+
+    # Крок 5: Компіляція проєкту за допомогою MSBuild в режиме Release
+    - name: Build Solution
+      run: msbuild PostMachine.sln /p:Configuration=Release
+
+    # Крок 6: Запуск модульних тестів (замените PostMachine.Tests на реальное имя проекта, если оно другое)
+    - name: Run unit tests
+      run: vstest.console.exe .\PostMachine.Tests\bin\Release\PostMachine.Tests.dll
