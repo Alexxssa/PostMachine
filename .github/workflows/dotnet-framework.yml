@@ -40,5 +40,5 @@ jobs:
 
       # Крок 6: Запуск модульних тестів за допомогою маски пошуку
       - name: Run unit tests
-        run:  msbuild PostMachine.sln /t:vstest
+        run:  vstest.console **\Release\*Tests.dll
 
