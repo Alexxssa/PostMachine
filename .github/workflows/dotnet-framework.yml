@@ -41,6 +41,6 @@ jobs:
     - name: Setup VSTest
       uses: dacbd/setup-vstest@v1.0.5
 
-    # Крок 6: Запуск модульних тестів (замените PostMachine.Tests на реальное имя проекта, если оно другое)
+    # Крок 6: Запуск модульних тестів
     - name: Run unit tests
       run: vstest.console.exe .\PostMachine.Tests\bin\Release\PostMachine.Tests.dll
