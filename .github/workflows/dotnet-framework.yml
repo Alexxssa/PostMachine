@@ -10,6 +10,7 @@ on:
   pull_request:
     branches:
       - develop
+  workflow_dispatch: # Дозволить вам запускати тести вручну через сайт, якщо знадобиться
 
 jobs:
   build-and-test:
@@ -17,30 +18,30 @@ jobs:
     runs-on: windows-latest
 
     steps:
-    # Крок 1: Завантаження коду з репозиторію (используем актуальную v4)
-    - name: Checkout code
-      uses: actions/checkout@v4
+      # Крок 1: Завантаження коду з репозиторію (используем актуальную v4)
+      - name: Checkout code
+        uses: actions/checkout@v4
 
-    # Крок 2: Додаємо MSBuild до PATH, чтобы собирать старые проекты
-    - name: Setup MSBuild
-      uses: microsoft/setup-msbuild@v2
+      # Крок 2: Додаємо MSBuild до PATH, чтобы собирать старые проекты
+      - name: Setup MSBuild
+        uses: microsoft/setup-msbuild@v2
 
-    # Крок 3: Додаємо NuGet для скачивания пакетов (библиотек)
-    - name: Setup NuGet
-      uses: nuget/setup-nuget@v2
+      # Крок 3: Додаємо NuGet для скачивания пакетов (библиотек)
+      - name: Setup NuGet
+        uses: nuget/setup-nuget@v2
 
-    # Крок 4: Відновлення залежностей через NuGet для вашего решения
-    - name: Restore NuGet packages
-      run: nuget restore PostMachine.sln
+      # Крок 4: Відновлення залежностей через NuGet для вашего решения
+      - name: Restore NuGet packages
+        run: nuget restore PostMachine.sln
 
-    # Крок 5: Компіляція проєкту за допомогою MSBuild в режиме Release
-    - name: Build Solution
-      run: msbuild PostMachine.sln /p:Configuration=Release
+      # Крок 5: Компіляція проєкту за допомогою MSBuild в режиме Release
+      - name: Build Solution
+        run: msbuild PostMachine.sln /p:Configuration=Release
 
-    # Додаємо VSTest до PATH (знаходить встановлений у Visual Studio тестовий движок)
-    - name: Setup VSTest
-      uses: dacbd/setup-vstest@v1.0.5
+      # Крок 6: Додаємо VSTest до PATH (знаходить встановлений у Visual Studio тестовий движок)
+      - name: Setup VSTest
+        uses: dacbd/setup-vstest@v1.0.5
 
-    # Крок 6: Запуск модульних тестів
-    - name: Run unit tests
-      run: vstest.console.exe .\PostMachine.Tests\bin\Release\PostMachine.Tests.dll
+      # Крок 7: Запуск модульних тестів за допомогою маски пошуку
+      - name: Run unit tests
+        run: vstest.console.exe **\Release\*Tests.dll
