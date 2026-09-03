@@ -1,4 +1,4 @@
-name: .NET Framework Unit Tests
+﻿name: .NET Framework Unit Tests
 
 # Workflow буде запускатися у випадку push на гілки feature/* та develop,
 # а також при створенні pull request в develop.
@@ -38,10 +38,7 @@ jobs:
       - name: Build Solution
         run: msbuild PostMachine.sln /p:Configuration=Release
 
-      # Крок 6: Додаємо VSTest до PATH ( знаходить встановлений у Visual Studio тестовий движок )
-      - name: Setup VSTest
-        uses: dacbd/setup-vstest@v1.0.5
-
-      # Крок 7: Запуск модульних тестів за допомогою маски пошуку
+      # Крок 6: Запуск модульних тестів за допомогою маски пошуку
       - name: Run unit tests
-        run: vstest.console.exe **\Release\*Tests.dll
+        run: dotnet test **\Release\*Tests.dll --no-build
+

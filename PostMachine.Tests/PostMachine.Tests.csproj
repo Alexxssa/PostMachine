@@ -5,7 +5,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D88AFC9F-C978-4BE8-843C-57BC5E6FBE37}</ProjectGuid>
+    <ProjectGuid>{2EE57BEB-6C1F-4A89-B955-91A866F01F76}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>PostMachine.Tests</RootNamespace>
@@ -54,6 +54,20 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Post\PostMachine.csproj">
+      <Project>{4a9fb4b4-1546-4432-be2b-fa19324e5a41}</Project>
+      <Name>PostMachine</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TapeAbstract\TapeAbstract.csproj">
+      <Project>{d1f7ea37-0dbf-4afd-9b78-7c8533fdc9ee}</Project>
+      <Name>TapeAbstract</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TuringMachine\TuringMachine.csproj">
+      <Project>{886c635f-9f5b-4e83-9046-7308c18f4bdb}</Project>
+      <Name>TuringMachine</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

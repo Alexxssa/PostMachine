@@ -6,7 +6,8 @@ namespace PostMachine.Tests {
     public class UnitTest1 {
         [TestMethod]
         public void TestMethod1() {
-            Assert.Equals(1,1);
+            int x = 1;
+            Assert.AreEqual(x,1);
         }
     }
 }
