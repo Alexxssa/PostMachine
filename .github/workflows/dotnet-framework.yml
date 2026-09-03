@@ -38,7 +38,7 @@ jobs:
       - name: Build Solution
         run: msbuild PostMachine.sln /p:Configuration=Release
 
-      # Крок 6: Додаємо VSTest до PATH (знаходить встановлений у Visual Studio тестовий движок)
+      # Крок 6: Додаємо VSTest до PATH ( знаходить встановлений у Visual Studio тестовий движок )
       - name: Setup VSTest
         uses: dacbd/setup-vstest@v1.0.5
 
