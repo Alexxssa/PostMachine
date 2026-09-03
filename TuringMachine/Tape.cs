@@ -28,9 +28,17 @@ namespace TuringMachine {
 
         // Друк головки
         public override void printHead() {
+            /*
             int pos = cells.IndexOf(curr);
             String s = new String(' ',cells.Count).Remove(pos,1).Insert(pos,"*");
             Console.WriteLine(' ' + String.Join(" ",s.ToCharArray()));        
+            */
+            foreach (Cell c in cells) {
+                Console.Write(' ');
+                Console.Write((c == curr)?'*':' ');
+            }
+            Console.WriteLine();
+
         }
     }
 }
