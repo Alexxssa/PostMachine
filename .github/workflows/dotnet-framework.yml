@@ -40,5 +40,5 @@ jobs:
 
       # Крок 6: Запуск модульних тестів за допомогою маски пошуку
       - name: Run unit tests
-        run:  vstest.console **\Release\*Tests.dll
+        run: dotnet test **\Release\*Tests.dll --no-build
 
