@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TuringMachine", "TuringMach
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TapeAbstract", "TapeAbstract\TapeAbstract.csproj", "{D1F7EA37-0DBF-4AFD-9B78-7C8533FDC9EE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostMachine.Tests", "PostMachine.Tests\PostMachine.Tests.csproj", "{2EE57BEB-6C1F-4A89-B955-91A866F01F76}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +57,18 @@ Global
 		{D1F7EA37-0DBF-4AFD-9B78-7C8533FDC9EE}.Release|x64.Build.0 = Release|Any CPU
 		{D1F7EA37-0DBF-4AFD-9B78-7C8533FDC9EE}.Release|x86.ActiveCfg = Release|Any CPU
 		{D1F7EA37-0DBF-4AFD-9B78-7C8533FDC9EE}.Release|x86.Build.0 = Release|Any CPU
+		{2EE57BEB-6C1F-4A89-B955-91A866F01F76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EE57BEB-6C1F-4A89-B955-91A866F01F76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EE57BEB-6C1F-4A89-B955-91A866F01F76}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{2EE57BEB-6C1F-4A89-B955-91A866F01F76}.Debug|x64.Build.0 = Debug|Any CPU
+		{2EE57BEB-6C1F-4A89-B955-91A866F01F76}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2EE57BEB-6C1F-4A89-B955-91A866F01F76}.Debug|x86.Build.0 = Debug|Any CPU
+		{2EE57BEB-6C1F-4A89-B955-91A866F01F76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EE57BEB-6C1F-4A89-B955-91A866F01F76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EE57BEB-6C1F-4A89-B955-91A866F01F76}.Release|x64.ActiveCfg = Release|Any CPU
+		{2EE57BEB-6C1F-4A89-B955-91A866F01F76}.Release|x64.Build.0 = Release|Any CPU
+		{2EE57BEB-6C1F-4A89-B955-91A866F01F76}.Release|x86.ActiveCfg = Release|Any CPU
+		{2EE57BEB-6C1F-4A89-B955-91A866F01F76}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
