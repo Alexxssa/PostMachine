@@ -41,4 +41,4 @@ jobs:
       # Крок 6: Запуск модульних тестів за допомогою маски пошуку
       - name: Run unit tests
         run: |
-          & "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TestWindow\vstest.console.exe" .\PostMachine.Tests\bin\Release\PostMachine.Tests.dll
+          & "${env:VSAPPIDDIR}..\..\Common7\IDE\CommonExtensions\Microsoft\TestWindow\vstest.console.exe" **\Release\*Tests.dll
