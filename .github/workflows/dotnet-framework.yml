@@ -136,8 +136,9 @@ jobs:
           # Завантажуємо black через pip
           pip install black flake8
           
-          # Встановлюємо reviewdog для Windows через Chocolatey
-          choco install reviewdog -y
+          Invoke-WebRequest -Uri "https://github.com" -OutFile "reviewdog.tar.gz"
+          tar -xf reviewdog.tar.gz
+          echo "$PWD" | Out-File -FilePath $env:GITHUB_PATH -Encoding utf8 -Append
 
       - name: Run Black with Reviewdog
         shell: powershell
