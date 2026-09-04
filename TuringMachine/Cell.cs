@@ -1,5 +1,5 @@
 ﻿namespace TuringMachine {
-    class Cell {
+    public class Cell {
         public static readonly char[] A = { '0', '1', '+', '=', 'S' };
         public static readonly int A_0 = 0;
         public static readonly int A_1 = 1;

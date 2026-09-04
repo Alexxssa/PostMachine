@@ -1,0 +1,9 @@
+﻿C:\Users\Администратор\source\repos\Labs\PostMachine\PostMachine.Tests\UnitTest1.cs
+C:\Users\Администратор\source\repos\Labs\PostMachine\PostMachine.Tests\Properties\AssemblyInfo.cs
+C:\Users\Администратор\source\repos\Labs\PostMachine\packages\MSTest.TestAdapter.1.3.2\build\_common\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Администратор\source\repos\Labs\PostMachine\packages\MSTest.TestAdapter.1.3.2\build\_common\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Администратор\source\repos\Labs\PostMachine\packages\MSTest.TestAdapter.1.3.2\build\_common\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Администратор\source\repos\Labs\PostMachine\packages\MSTest.TestAdapter.1.3.2\build\_common\ru\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+C:\Users\Администратор\source\repos\Labs\PostMachine\packages\MSTest.TestAdapter.1.3.2\build\_common\ru\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+C:\Users\Администратор\source\repos\Labs\PostMachine\packages\MSTest.TestAdapter.1.3.2\build\_common\ru\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Users\Администратор\source\repos\Labs\PostMachine\PostMachine.Tests\packages.config

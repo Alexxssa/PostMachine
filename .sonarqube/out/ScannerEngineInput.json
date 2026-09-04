@@ -10,7 +10,7 @@
     },
     {
       "key": "sonar.scanner.bootstrapStartTime",
-      "value": "1787925628000"
+      "value": "1788508450000"
     },
     {
       "key": "sonar.projectKey",
@@ -30,7 +30,7 @@
     },
     {
       "key": "sonar.sources",
-      "value": ""
+      "value": "C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\.github\\workflows\\dotnet-framework.yml"
     },
     {
       "key": "sonar.tests",
@@ -38,7 +38,7 @@
     },
     {
       "key": "sonar.modules",
-      "value": "D1F7EA37-0DBF-4AFD-9B78-7C8533FDC9EE,886C635F-9F5B-4E83-9046-7308C18F4BDB,4A9FB4B4-1546-4432-BE2B-FA19324E5A41"
+      "value": "D1F7EA37-0DBF-4AFD-9B78-7C8533FDC9EE,886C635F-9F5B-4E83-9046-7308C18F4BDB,4A9FB4B4-1546-4432-BE2B-FA19324E5A41,D88AFC9F-C978-4BE8-843C-57BC5E6FBE37"
     },
     {
       "key": "D1F7EA37-0DBF-4AFD-9B78-7C8533FDC9EE.sonar.projectKey",
@@ -106,7 +106,7 @@
     },
     {
       "key": "886C635F-9F5B-4E83-9046-7308C18F4BDB.sonar.sources",
-      "value": "C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\TuringMachine\\App.config,C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\TuringMachine\\bin\\Debug\\TuringMachine.exe.config,C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\TuringMachine\\Cell.cs,C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\TuringMachine\\Program.cs,C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\TuringMachine\\ProgramA.cs,C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\TuringMachine\\ProgramCell.cs,C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\TuringMachine\\Properties\\AssemblyInfo.cs,C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\TuringMachine\\Tape.cs,C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\TuringMachine\\TextFile1.txt"
+      "value": "C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\TuringMachine\\App.config,C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\TuringMachine\\bin\\Debug\\TuringMachine.exe.config,C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\TuringMachine\\bin\\Release\\TuringMachine.exe.config,C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\TuringMachine\\Cell.cs,C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\TuringMachine\\Program.cs,C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\TuringMachine\\ProgramA.cs,C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\TuringMachine\\ProgramCell.cs,C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\TuringMachine\\Properties\\AssemblyInfo.cs,C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\TuringMachine\\Tape.cs,C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\TuringMachine\\Universal.cs,C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\TuringMachine\\TextFile1.txt"
     },
     {
       "key": "886C635F-9F5B-4E83-9046-7308C18F4BDB.sonar.cs.analyzer.projectOutPaths",
@@ -146,7 +146,7 @@
     },
     {
       "key": "4A9FB4B4-1546-4432-BE2B-FA19324E5A41.sonar.sources",
-      "value": "C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\Post\\App.config,C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\Post\\bin\\Debug\\PostMachine.exe.config,C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\Post\\Cell.cs,C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\Post\\Program.cs,C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\Post\\ProgramA.cs,C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\Post\\ProgramCell.cs,C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\Post\\Properties\\AssemblyInfo.cs,C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\Post\\Tape.cs"
+      "value": "C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\Post\\App.config,C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\Post\\bin\\Debug\\PostMachine.exe.config,C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\Post\\bin\\Release\\PostMachine.exe.config,C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\Post\\Cell.cs,C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\Post\\Program.cs,C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\Post\\ProgramA.cs,C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\Post\\ProgramCell.cs,C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\Post\\Properties\\AssemblyInfo.cs,C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\Post\\Tape.cs"
     },
     {
       "key": "4A9FB4B4-1546-4432-BE2B-FA19324E5A41.sonar.cs.analyzer.projectOutPaths",
@@ -159,6 +159,46 @@
     {
       "key": "4A9FB4B4-1546-4432-BE2B-FA19324E5A41.sonar.cs.scanner.telemetry",
       "value": "C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\.sonarqube\\out\\2\\Telemetry.json"
+    },
+    {
+      "key": "D88AFC9F-C978-4BE8-843C-57BC5E6FBE37.sonar.projectKey",
+      "value": "TuringMachine:D88AFC9F-C978-4BE8-843C-57BC5E6FBE37"
+    },
+    {
+      "key": "D88AFC9F-C978-4BE8-843C-57BC5E6FBE37.sonar.projectName",
+      "value": "PostMachine.Tests"
+    },
+    {
+      "key": "D88AFC9F-C978-4BE8-843C-57BC5E6FBE37.sonar.projectBaseDir",
+      "value": "C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\PostMachine.Tests"
+    },
+    {
+      "key": "D88AFC9F-C978-4BE8-843C-57BC5E6FBE37.sonar.working.directory",
+      "value": "C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\.sonarqube\\out\\.sonar\\mod3"
+    },
+    {
+      "key": "D88AFC9F-C978-4BE8-843C-57BC5E6FBE37.sonar.sourceEncoding",
+      "value": "utf-8"
+    },
+    {
+      "key": "D88AFC9F-C978-4BE8-843C-57BC5E6FBE37.sonar.sources",
+      "value": ""
+    },
+    {
+      "key": "D88AFC9F-C978-4BE8-843C-57BC5E6FBE37.sonar.tests",
+      "value": "C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\PostMachine.Tests\\packages.config,C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\PostMachine.Tests\\bin\\Debug\\PostMachine.exe.config,C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\PostMachine.Tests\\bin\\Debug\\TuringMachine.exe.config,C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\PostMachine.Tests\\bin\\Release\\PostMachine.exe.config,C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\PostMachine.Tests\\bin\\Release\\TuringMachine.exe.config,C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\PostMachine.Tests\\UnitTest1.cs,C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\PostMachine.Tests\\Properties\\AssemblyInfo.cs"
+    },
+    {
+      "key": "D88AFC9F-C978-4BE8-843C-57BC5E6FBE37.sonar.cs.analyzer.projectOutPaths",
+      "value": "C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\.sonarqube\\out\\3"
+    },
+    {
+      "key": "D88AFC9F-C978-4BE8-843C-57BC5E6FBE37.sonar.cs.roslyn.reportFilePaths",
+      "value": "C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\.sonarqube\\out\\3\\Issues.json"
+    },
+    {
+      "key": "D88AFC9F-C978-4BE8-843C-57BC5E6FBE37.sonar.cs.scanner.telemetry",
+      "value": "C:\\Users\\Администратор\\source\\repos\\Labs\\PostMachine\\.sonarqube\\out\\3\\Telemetry.json"
     },
     {
       "key": "sonar.token",

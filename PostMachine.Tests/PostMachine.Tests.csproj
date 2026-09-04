@@ -5,7 +5,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2EE57BEB-6C1F-4A89-B955-91A866F01F76}</ProjectGuid>
+    <ProjectGuid>{D88AFC9F-C978-4BE8-843C-57BC5E6FBE37}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>PostMachine.Tests</RootNamespace>

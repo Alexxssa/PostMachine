@@ -1,3 +1,6 @@
+x
+\C:\Users\Администратор\source\repos\Labs\PostMachine\TuringMachine\Universal.cs 8r	
+�
 �
 WC:\Users\Администратор\source\repos\Labs\PostMachine\TuringMachine\Tape.cs 8j	r
  !"#$� !�

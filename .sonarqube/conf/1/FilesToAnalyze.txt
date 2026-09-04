@@ -4,5 +4,6 @@ C:\Users\Администратор\source\repos\Labs\PostMachine\TuringMachine\
 C:\Users\Администратор\source\repos\Labs\PostMachine\TuringMachine\ProgramCell.cs
 C:\Users\Администратор\source\repos\Labs\PostMachine\TuringMachine\Properties\AssemblyInfo.cs
 C:\Users\Администратор\source\repos\Labs\PostMachine\TuringMachine\Tape.cs
+C:\Users\Администратор\source\repos\Labs\PostMachine\TuringMachine\Universal.cs
 C:\Users\Администратор\source\repos\Labs\PostMachine\TuringMachine\TextFile1.txt
 C:\Users\Администратор\source\repos\Labs\PostMachine\TuringMachine\App.config

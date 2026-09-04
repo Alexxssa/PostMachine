@@ -1,4 +1,59 @@
-�
+�
+\C:\Users\Администратор\source\repos\Labs\PostMachine\TuringMachine\Universal.cs
+	namespace 	
+TuringMachine
+ 
+{ 
+static 
+
+class 
+	Universal 
+{ 
+public		 
+static		 
+char		 
+CalculateAnswer		 *
+(		* +
+ProgramA		+ 3
+pr		4 6
+,		6 7
+Tape		8 <
+tate		= A
+)		A B
+{		C D
+return
+
+ 
+Cell
+
+ 
+.
+
+ 
+A
+
+ 
+[
+
+ 
+Cell
+
+ 
+.
+
+ 
+A_S
+
+ "
+]
+
+" #
+;
+
+# $
+} 	
+} 
+} �
 WC:\Users\Администратор\source\repos\Labs\PostMachine\TuringMachine\Tape.cs
 	namespace 	
 TuringMachine
@@ -1860,16 +1915,17 @@ ZC:\Users\Администратор\source\repos\Labs\PostMachine\TuringMachine
 ;PP 
 }QQ 	
 }RR 
-}SS �
+}SS �
 WC:\Users\Администратор\source\repos\Labs\PostMachine\TuringMachine\Cell.cs
 	namespace 	
 TuringMachine
  
-{ 
-class 	
-Cell
- 
-{ 
+{ 
+public 
+
+class 
+Cell 
+{ 
 public 
 static 
 readonly 

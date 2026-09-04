@@ -1,0 +1,1 @@
+zRlC:\Users\Администратор\source\repos\Labs\PostMachine\PostMachine.Tests\PostMachine.Tests.csproj�	CSharp7_3

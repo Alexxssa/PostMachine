@@ -1,4 +1,13 @@
-�
+�
+\C:\Users\Администратор\source\repos\Labs\PostMachine\TuringMachine\Universal.cs
+
+ 
+
+		 *
+
+		4 6
+
+		= A�
 WC:\Users\Администратор\source\repos\Labs\PostMachine\TuringMachine\Tape.cs
 
 
@@ -87,8 +96,7 @@ ZC:\Users\Администратор\source\repos\Labs\PostMachine\TuringMachine
 88 JJ JJ( ,KK LL* .
 HH LL NN �
 WC:\Users\Администратор\source\repos\Labs\PostMachine\TuringMachine\Cell.cs
-
-  
+  
 
 & '
 # &
