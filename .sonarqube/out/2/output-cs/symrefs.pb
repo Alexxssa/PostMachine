@@ -14,8 +14,7 @@ NC:\Users\Администратор\source\repos\Labs\PostMachine\Post\Tape.cs
 
  "
 
-&& &c
-aC:\Users\Администратор\source\repos\Labs\PostMachine\Post\Properties\AssemblyInfo.cs�
+&& &�
 UC:\Users\Администратор\source\repos\Labs\PostMachine\Post\ProgramCell.cs
 
 
@@ -30,7 +29,8 @@ UC:\Users\Администратор\source\repos\Labs\PostMachine\Post\ProgramC
 * , 
 2 4 
 
- �
+ c
+aC:\Users\Администратор\source\repos\Labs\PostMachine\Post\Properties\AssemblyInfo.cs�
 RC:\Users\Администратор\source\repos\Labs\PostMachine\Post\ProgramA.cs
 
 

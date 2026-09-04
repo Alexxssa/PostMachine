@@ -2,5 +2,5 @@ projectKey=TuringMachine
 serverUrl=http://localhost:9000
 serverVersion=26.8.0.126808
 dashboardUrl=http://localhost:9000/dashboard?id=TuringMachine
-ceTaskId=f3d78521-128a-496c-b9ff-75592ce3dd34
-ceTaskUrl=http://localhost:9000/api/ce/task?id=f3d78521-128a-496c-b9ff-75592ce3dd34
+ceTaskId=f4b926be-9b2f-4c29-aeb3-ae49a415362a
+ceTaskUrl=http://localhost:9000/api/ce/task?id=f4b926be-9b2f-4c29-aeb3-ae49a415362a

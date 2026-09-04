@@ -1,5 +1,4 @@
-k
-iC:\Users\Администратор\source\repos\Labs\PostMachine\TapeAbstract\Properties\AssemblyInfo.cs�
+�
 WC:\Users\Администратор\source\repos\Labs\PostMachine\TapeAbstract\TapeA.cs
 
  <
@@ -23,4 +22,5 @@ WC:\Users\Администратор\source\repos\Labs\PostMachine\TapeAbstract\
 
 (( "
 
-++ &
+++ &k
+iC:\Users\Администратор\source\repos\Labs\PostMachine\TapeAbstract\Properties\AssemblyInfo.cs

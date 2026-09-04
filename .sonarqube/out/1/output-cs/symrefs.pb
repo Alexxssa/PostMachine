@@ -35,7 +35,17 @@ WC:\Users\Администратор\source\repos\Labs\PostMachine\TuringMachine
  &
    : =  H K
    !!4 5l
-jC:\Users\Администратор\source\repos\Labs\PostMachine\TuringMachine\Properties\AssemblyInfo.cs�
+jC:\Users\Администратор\source\repos\Labs\PostMachine\TuringMachine\Properties\AssemblyInfo.cs�
+ZC:\Users\Администратор\source\repos\Labs\PostMachine\TuringMachine\Program.cs
+
+ 
+
+		 
+
+		" &(
+ DD JJ !LL 2
+88 JJ JJ( ,KK LL* .
+HH LL NN �
 ^C:\Users\Администратор\source\repos\Labs\PostMachine\TuringMachine\ProgramCell.cs
 
 
@@ -84,17 +94,7 @@ jC:\Users\Администратор\source\repos\Labs\PostMachine\TuringMachine
 55 F
 77 77 77% &887 899# $::' (<<  !2
 99 99 99- .::* +<<# $
-::  !;; << �
-ZC:\Users\Администратор\source\repos\Labs\PostMachine\TuringMachine\Program.cs
-
- 
-
-		 
-
-		" &(
- DD JJ !LL 2
-88 JJ JJ( ,KK LL* .
-HH LL NN �
+::  !;; << �
 WC:\Users\Администратор\source\repos\Labs\PostMachine\TuringMachine\Cell.cs
   
 
