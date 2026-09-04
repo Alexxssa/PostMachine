@@ -17,5 +17,12 @@ namespace PostMachine.Tests {
             c.set(TuringMachine.Cell.A_0);
             Assert.AreEqual(c.get(),TuringMachine.Cell.A_0);
         }
+
+        [TestMethod]
+        public void TestMethod3() {
+            TuringMachine.Cell c = new TuringMachine.Cell();
+            c.set(TuringMachine.Cell.A_1);
+            Assert.AreEqual(c.get(),TuringMachine.Cell.A_1);
+        }
     }
 }
