@@ -136,19 +136,10 @@ jobs:
           # Завантажуємо black через pip
           pip install black flake8
           
-          # Скачиваем reviewdog напрямую с помощью встроенной утилиты gh
-          gh release download v0.20.2 --repo reviewdog/reviewdog --pattern "*Windows_x86_64.zip"
-          
-          # Переименовываем скачанный файл в .tar.gz (так как авторы ошиблись с расширением)
-          Rename-Item -Path "reviewdog_0.20.2_Windows_x86_64.zip" -NewName "reviewdog.tar.gz"
-          
-          # Распаковываем его встроенным tar.exe (теперь файл скачан корректно и tar его прочитает)
-          tar -xf reviewdog.tar.gz
-          
-          # Проверяем наличие файла reviewdog.exe в логах для контроля
-          Get-ChildItem reviewdog.exe
-          
-          echo "$PWD" | Out-File -FilePath $env:GITHUB_PATH -Encoding utf8 -Append
+      - name: Setup Reviewdog
+        uses: reviewdog/action-setup@v1
+        with:
+          reviewdog-version: 'v0.20.2'
 
       - name: Run Black with Reviewdog
         shell: powershell
