@@ -1,5 +1,5 @@
 ﻿namespace PostMachine {
-    class Cell {
+    public class Cell {
         bool mark = false;
 
         public Cell setMark(bool mark) {
