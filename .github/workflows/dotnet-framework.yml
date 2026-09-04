@@ -32,7 +32,7 @@ jobs:
             const approved = reviews.some(review => review.state === 'APPROVED');
             if (!approved) {
               core.setFailed("Код-рев’ю не схвалено! Зверніться до ментора.");
-            Ї
+            }
 
   build-and-test:
     # Використовуємо Windows-сервер, так як .NET Framework 4.7.2 прив'язаний до Windows компонентів
