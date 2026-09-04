@@ -105,3 +105,19 @@ jobs:
           dotnet build PostMachine.sln --configuration Release --no-incremental
           
           dotnet sonarscanner end /d:sonar.token="${{ secrets.SONAR_TOKEN }}"
+
+      # Flake 8
+      - name: Запуск flake8 через Reviewdog
+        uses: reviewdog/action-flake8@v2
+        with:
+          github_token: ${{ secrets.TOKEN }}
+          reporter: github-pr-review
+          level: error
+
+      # Black
+      - name: Запуск Black через Reviewdog
+        uses: reviewdog/action-black@v1
+        with:
+          github_token: ${{ secrets.TOKEN }}
+          reporter: github-pr-review
+          level: info
