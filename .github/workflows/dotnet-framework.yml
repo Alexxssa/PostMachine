@@ -32,7 +32,8 @@ jobs:
             const approved = reviews.some(review => review.state === 'APPROVED');
             if (!approved) {
               core.setFailed("Код-рев’ю не схвалено! Зверніться до ментора.");
-            
+            }
+
   build-and-test:
     # Використовуємо Windows-сервер, так як .NET Framework 4.7.2 прив'язаний до Windows компонентів
     runs-on: windows-latest
@@ -110,6 +111,11 @@ jobs:
     runs-on: windows-latest
     needs: build-and-test
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
       # Flake 8
       #- name: Запуск flake8 через Reviewdog
       #  uses: reviewdog/action-flake8@v2

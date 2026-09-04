@@ -1,15 +1,21 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using TuringMachine;
 
 namespace PostMachine.Tests {
     [TestClass]
     public class UnitTest1 {
         [TestMethod]
         public void TestMethod1() {
-            Cell c = new Cell();
-            c.set(Cell.A_0);
-            Assert.AreEqual(c.get(),Cell.A_0);
+            PostMachine.Cell c = new PostMachine.Cell();
+            c.setMark(true);
+            Assert.AreEqual(c.getMark(),true);
+        }
+
+        [TestMethod]
+        public void TestMethod2() {
+            TuringMachine.Cell c = new TuringMachine.Cell();
+            c.set(TuringMachine.Cell.A_0);
+            Assert.AreEqual(c.get(),TuringMachine.Cell.A_0);
         }
     }
 }
