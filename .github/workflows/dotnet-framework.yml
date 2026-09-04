@@ -111,6 +111,11 @@ jobs:
     runs-on: windows-latest
     needs: build-and-test
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
       # Flake 8
       #- name: Запуск flake8 через Reviewdog
       #  uses: reviewdog/action-flake8@v2
