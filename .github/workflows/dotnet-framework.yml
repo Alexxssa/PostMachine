@@ -106,18 +106,51 @@ jobs:
           
           dotnet sonarscanner end /d:sonar.token="${{ secrets.SONAR_TOKEN }}"
 
+  analysis2:
+    runs-on: windows-latest
+    needs: build-and-test
+    steps:
       # Flake 8
-      - name: Запуск flake8 через Reviewdog
-        uses: reviewdog/action-flake8@v2
-        with:
-          github_token: ${{ secrets.TOKEN }}
-          reporter: github-pr-review
-          level: error
+      #- name: Запуск flake8 через Reviewdog
+      #  uses: reviewdog/action-flake8@v2
+      #  with:
+      #    github_token: ${{ secrets.TOKEN }}
+      #    reporter: github-pr-review
+      #    level: error
 
       # Black
-      - name: Запуск Black через Reviewdog
-        uses: reviewdog/action-black@v1
+      #- name: Запуск Black через Reviewdog
+      #  uses: reviewdog/action-black@v1
+      #  with:
+      #    github_token: ${{ secrets.TOKEN }}
+      #    reporter: github-pr-review
+      #    level: info
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          github_token: ${{ secrets.TOKEN }}
-          reporter: github-pr-review
-          level: info
+          python-version: '3.x'
+
+      - name: Install Black and Reviewdog
+        shell: powershell
+        run: |
+          # Завантажуємо black через pip
+          pip install black flake8
+          
+          # Встановлюємо reviewdog для Windows через Chocolatey
+          choco install reviewdog -y
+
+      - name: Run Black with Reviewdog
+        shell: powershell
+        env:
+          REVIEWDOG_GITHUB_API_TOKEN: ${{ secrets.TOKEN }}
+        run: |
+          # Завантажуємо у режимі перевірки(--check) та передаємо вивід reviewdog
+          black --check . | reviewdog -f=black -reporter=github-pr-review -level=info
+
+      - name: Run Flake8 with Reviewdog
+        shell: powershell
+        env:
+          REVIEWDOG_GITHUB_API_TOKEN: ${{ secrets.TOKEN }}
+        run: |
+          # Завантажуємо flake8 та передаємо його вбудований формат у reviewdog
+          flake8 . | reviewdog -f=flake8 -reporter=github-pr-review -level=error
