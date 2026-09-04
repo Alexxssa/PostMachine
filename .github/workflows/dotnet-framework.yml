@@ -14,7 +14,7 @@ on:
   workflow_dispatch: # Дозволить вам запускати тести вручну через сайт, якщо знадобиться
 
 jobs:
-  # 1. Джоба перевірки код-ревью (для убунти, тыльки для PR)
+  # Job перевірки код-ревью (для убунти, тільки для pull_reques)
   review-check:
     runs-on: ubuntu-latest
     if: github.event_name == 'pull_request'
@@ -62,9 +62,25 @@ jobs:
       - name: Run unit tests
         run: dotnet test **\Release\*Tests.dll --no-build
 
-  #analysis:
-  #  runs-on: windows-latest
-  #  needs: build-and-test
-  #  steps:
-  #    - name: Checkout repository
-  #      uses: actions/checkout@v4
+  analysis:
+    runs-on: windows-latest
+    needs: build-and-test
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install and Run CLOC
+        shell: powershell
+        run: |
+          # Встановлюємо cloc через Chocolatey
+          choco install cloc -y
+          
+          # Рахуємо рядки
+          cloc . --exclude-dir=packages,bin,obj,.git,.github,sonar --xml --out=cloc-report.xml
+
+      # Зберігаємо створені артефакти у Гітхаб
+      - name: Upload CLOC Report Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: cloc-code-metrics       # Назва архіву
+          path: cloc-report.xml         # Шлях
